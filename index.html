@@ -22,7 +22,7 @@
       </div>
     </div>
     <nav class="menu">
-      <ul class="menu__list">
+      <ul class="menu__list"">
         <li class="menu__item">
           <a href="about.html" class="menu__link">Про компанію</a>
         </li>
@@ -46,9 +46,9 @@
     <section class="home">
       <div class="container wide">
         <div class="slider">
-          <div class="slider__card">
-            <div class="slider__content">
-              <div class="slider__item">
+          <div class="slider__before">
+              <img class="slider__img" src="./img/img-slider-01.jpg" alt="img">
+              <div class="slider__item slider__item--left">
                 <p class="slider__text slider__text--services">
                   Діагностика та ремонт стартерів, генераторів, кондиціонерів
                 </p>
@@ -56,11 +56,10 @@
                   Мережа сервісів
                 </a>
               </div>
-              <div class="slider__btns">
-                <a class="slider__btn slider__btn--left" href="#">&#171;</a>
-                <a class="slider__btn slider__btn--right" href="#">&#187;</a>
-              </div>
-              <div class="slider__item">
+          </div>
+          <div class="slider__after">
+              <img class="slider__img" src="./img/img-slider-02.jpg" alt="img">
+              <div class="slider__item slider__item--right">
                 <p class="slider__text slider__text--engine">
                   Продаж стартерів, генераторів <br> та компонентів
                 </p>
@@ -68,9 +67,30 @@
                   Перейти в магазин
                 </a>
               </div>
-            </div>
           </div>
+          <div class="slider__resize">
+              « »
+          </div>
+      </div>
+      <div class="mobile-cards">
+        <div class="mobile-cards__item">
+          <p class="slider__text slider__text--services">
+            Діагностика та ремонт стартерів, генераторів, кондиціонерів
+          </p>
+          <a class="slider__link btn" href="#">
+            Мережа сервісів
+          </a>
         </div>
+        <div class="mobile-cards__item">
+          <p class="slider__text slider__text--engine">
+            Продаж стартерів, генераторів <br> та компонентів
+          </p>
+          <a class="slider__link btn" href="#">
+            Перейти в магазин
+          </a>
+        </div>
+      </div>
+        
       </div>
       <div class="container">
         <div class="intro">
@@ -78,7 +98,7 @@
             <img class="logo__img" src="./img/Restart Logo.svg" alt="Restart logo">
           </a>
           <p class="intro__text">
-            Справжні професіонали на ринку стартерів та генераторів
+            <span>Справжні професіонали</span> на ринку стартерів та генераторів
           </p>
           <div class="intro__inner">
             <div class="intro__item">
